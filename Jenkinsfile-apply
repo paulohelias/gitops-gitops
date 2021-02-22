@@ -25,7 +25,6 @@ pipeline {
         sh './wait_oauth.sh'
         }
       }
-    }
     stage ('Verify test user') {
       when {
 	branch 'master'
